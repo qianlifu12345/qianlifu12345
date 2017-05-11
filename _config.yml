@@ -7,29 +7,29 @@ paginate: 5
 gems: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://biomadeira.github.io/vitae
-author: Fábio Madeira
+url: http://localhost
+author: lifu QIAN
 
 # edit this section with your information
 # biomadeira.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /
-title: Chris Turner's Resume
-name: Chris Turner
-email: christurner@me.com
-email_full: mailto:youremail@me.com
-website: github.io/sustain
-website_full: https://biomadeira.github.io/sustain
+baseurl: 
+title: lifu QIAN's Resume
+name: lifu QIAN
+email: qianlifu12345@126.com
+email_full: mailto:qianlifu12345@126.com
+website: qianlifu12345.github.io
+website_full: https://qianlifu12345.github.io
 github: trending
 twitter: twitter
-tel: +44 0000 000000
-tel_full: tel:+440000000000
-google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
-address: 44 Perth Street
-postcode: EH3 5BL
-city: Edinburgh
-country: United Kingdom
-google_analytics: UA-69300817-1
+tel: + (86) 18566258670
+tel_full: tel:+ (86) 18566258670
+google_maps: 'http://j.map.baidu.com/0nfE8'
+address: 2008 Qiaoxiang Road
+postcode: ZIP 518057
+city: Shenzhen
+country: China
+google_analytics: UA-69131039-2
 
 # needed for travis-ci build
 exclude: [vendor]
