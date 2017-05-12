@@ -117,6 +117,13 @@ em {
     /*margin-right: 6px;*/
 }
 
+gpa {
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(51, 153, 255);
+    /*margin-right: 6px;*/
+}
+
 @media print {
     @page {
         margin: 15mm;
