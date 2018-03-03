@@ -2,14 +2,24 @@
     <h1>Professional Experience</h1>
     <article>
         <header>
-            <h1>Distrubute Information Collection System</h1>
+            <h1>Distrubute Information Collection and Analysis Platform</h1>
             <span><address>Shenzhen Finance Institute,CUHK(SZ)</address><time>2017</time></span>
         </header>
         <p>
-            Distrubute Information Collection System is a distributed web crawling system that collect user post and tranfer the data to different databases.
+Distribute Information Collection and Analysis Platform is a distributed web crawling system that collects social network information and analyzes the public sentiment. I am responsible design and implement whole data pipeline including web crawling, data bus design, data warehouse design and software provisioning.
         </p>
         <li>
-            Developing framework: Scrapy Cluster</li>
+            Frameworks: Scrapy Cluster ,Spark Streaming, Kafka, Redis, Zookeeper, Logstash, Elasticsearch
+            </li>
+        <li>
+            The crawler can automatically login the website, retain the login session, parse the webpage content and crawl incrementally. 
+            </li>
+        <li>
+            The system is designed in micro-service fashion and provisioned on the Kubernate cluster. The system takes the advantages from Kubernate and micro-service structure which the crawling node can be scaled up in seconds.
+            </li>
+        <li>
+            Data processing use the state-of-art big data processing frameworks, including Kafka, Elasticsearch, and Spark Streaming. Kafka cluster worked as a data bus store parsed webpage content. Spark streaming consumes the data from the Kafka pipeline and predicts the public sentiment from the social media post. Elasticsearch is mainly responsible for the full-text retrieval.
+            </li>
     </article>
     <article>
         <header>
