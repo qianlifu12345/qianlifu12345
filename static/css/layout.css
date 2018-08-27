@@ -116,7 +116,12 @@ em {
     color: rgb(100, 100, 100);
     /*margin-right: 6px;*/
 }
-
+colorem {
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(51, 153, 255);
+    /*margin-right: 6px;*/
+}
 gpa {
     font-style: normal;
     font-weight: bold;

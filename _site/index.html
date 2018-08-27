@@ -81,29 +81,32 @@
 
 
 <section class="thirteen columns">
-    <h1>Employment</h1>
+    <article>
+        <header>
+            <h1>Oracle Asia R&D-Shenzhen
+</h1>
+            <h1>Senior Software Developer in Global Lifecycle Management
+</h1>
+            <span><address>Shenzhen,China</address><time>Jun. 2018 to Present </time></span>
+        </header>
+        <li>A block-chain based content addressable storage for patching purpose
+        </li>
+        <li>Optimized repository restore process and gain over <colorem>50%</colorem> speed-up
+        </li>
+    </article>
+<article>
     <article>
         <header>
             <h1>Shenzhen Finance Institute,The Chinese University of Hong Kong(SZ)</h1>
-            <h1>Research Assistant</h1>
-            <span><address>Shenzhen,China </address><time>Sept. 2017 to present </time></span>
+            <h1>Research Assistant under supervised by Prof. ZHANG Tianyu</h1>
+            <span><address>Shenzhen,China </address><time>Sept. 2017 to Jun. 2018 </time></span>
         </header>
-        <li>Distrubute Information Collection System
+        <li>Distribute Information Collection and Analysis Platform for Financial Social Network. Data source:guba BBS, Xueqiu, Tencent News, stcn.com...
         </li>
-        <li>How Social Sentiment Influence the Capital Market
+        <li>Process <colorem>16 GB</colorem> streaming data daily and control delay within <colorem>10 mintues</colorem> on <colorem>3 nodes Kubernetes cluster</colorem> and <colorem>3 nodes Spark streaming cluster</colorem>
         </li>
-    </article>
-        <article>
-        <header>
-            <h1>HUA YUXUN Tech Co. Ltd (卖座网)</h1>
-            <h1>Software Developer</h1>
-            <span><address>Shenzhen,China </address><time>June. 2017 to Sept. 2017 </time></span>
-        </header>
-        <li>Big-data processing platform (Recommend system)
+        <li>Research topic: How Social Sentiment Influence the Capital Market
         </li>
-        <li>Design CI/CD pipeline for optimizing software deployment and release workflow
-        </li>
-        <li>Setup automatic integration test system
     </article>
     <article>
         <header>
@@ -113,11 +116,11 @@
 </h1>
             <span><address>Shenzhen,China & Phoenix,USA</address><time>Dec. 2016 to Mar. 2017 </time></span>
         </header>
-        <li>Rancher Flat network project based on SDN (Open source)
+        <li>Rancher Flat network project based on SDN (Open source) (Gain <colorem>99%</colorem> hardware bandwidth)
         </li>
         <li>Container log collection and analysis workflow based on ElasticSearch, Fluentd, Kibana
         </li>
-        <li>CI/CD workflow based on Jenkins, mocha and docker
+        <li>CI/CD workflow based on Jenkins and docker
         </li>
         <li>Webank private cloud
         </li>
@@ -148,14 +151,24 @@
     <h1>Professional Experience</h1>
     <article>
         <header>
-            <h1>Distrubute Information Collection System</h1>
-            <span><address>Shenzhen Finance Institute,CUHK(SZ)</address><time>2017</time></span>
+            <h1>Distrubute Information Collection and Analysis Platform</h1>
+            <span><address>Shenzhen Finance Institute,CUHK(SZ)</address><time>2017-Present</time></span>
         </header>
         <p>
-            Distrubute Information Collection System is a distributed web crawling system that collect user post and tranfer the data to different databases.
+        Distribute Information Collection and Analysis Platform collects social network information and analyzes the public sentiment exceed <colorem>industrial quality</colorem>. I am responsible for designing and implementing whole data pipeline including web crawling, data bus design, data warehouse design and cluster provisioning.
         </p>
         <li>
-            Developing framework: Scrapy Cluster</li>
+            Frameworks: Scrapy Cluster, <colorem>Spark Streaming, Kafka, Redis, Zookeeper, Logstash, Elasticsearch,</colorem> mysql
+            </li>
+        <li>
+            The crawler can automatically login the website, retain the login session, parse the webpage content and crawl incrementally. 
+            </li>
+        <li>
+            The system is designed in micro-service fashion and provisioned on the <colorem>Kubernetes cluster</colorem>. The system takes the advantages from Kubernetes and micro-service structure which the crawling node can be scaled up in seconds.
+            </li>
+        <li>
+            Data processing use the state-of-art big data processing frameworks, including Kafka, Elasticsearch, and Spark Streaming. Kafka cluster worked as a data bus store parsed webpage content. Spark streaming consumes the data from the Kafka pipeline and predicts the public sentiment from the social media post. Elasticsearch is mainly responsible for the full-text retrieval. The system processes <colorem>16 GB</colorem> streaming data daily and control delay within <colorem>10 mintues</colorem>.
+            </li>
     </article>
     <article>
         <header>
@@ -164,7 +177,7 @@
             Rancher Labs Inc.,Phoenix,USA</address><time>2017</time></span>
         </header>
         <p>
-             Rancher Flat network project based on Container Network Interface, which is a software-defined network. The Flat network plugin implements the IP allocation for the containers and the container network connectivity. The containers , Virtual Machines and baremetal machines can access to each other and they are in the same subnet and network hierachy.
+             (SDN) Rancher Flat network project based on Container Network Interface for Container Cloud, which gain <colorem>99%</colorem> hardware bandwidth. The Flat network plugin implements the IP allocation for the containers and the container network connectivity. The containers , Virtual Machines and baremetal machines can access to each other and they are in the same subnet and network hierachy.
         </p>
         <li>
             Developing tools and language:Golang, Container Network Interface, Linux network namespace
@@ -174,7 +187,7 @@
     <article>
         <header>
             <h1>Research on Personal Data Analytics and Implement </h1>
-            <span><professor>Supervised by Prof. John C.S. Lui @ </professor><address>The Chinese Univercity of Hong Kong,Hong Kong</address><time>2015</time></span>
+            <span><professor>Under supervised by Prof. John C.S. Lui @ </professor><address>The Chinese Univercity of Hong Kong,Hong Kong</address><time>2015</time></span>
         </header>
         <p>
             The project aims to analysis the web blog and post in the online social network. The project had implemented the word count, sentiment  analysis,living habit analysis,topic model based on LDA(Latent Dirichlet Allocation) algorithm. 
@@ -225,18 +238,18 @@
         </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-            &nbsp;&nbsp;<em>Java</em>,<em>Python</em>
+            &nbsp;&nbsp;<colorem>Java</colorem>,<colorem>Python</colorem>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<em>Golang</em>, <em>Perl</em>,<em>shell</em> &amp; <em>Git</em>
+            &nbsp;&nbsp;<colorem>Golang</colorem>, <colorem>Perl</colorem>,<colorem>shell</colorem> &amp; <colorem>Git</colorem>
         </p>
                 <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<em>Linux Network Namespace</em>
+            &nbsp;&nbsp;<colorem>Linux Network Namespace</colorem>
         </p>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<em>HTML/CSS3</em> &amp; <em>Javascript</em>
+            &nbsp;&nbsp;<colorem>HTML/CSS3</colorem> &amp; <colorem>Javascript</colorem>
         </p>
     </article>
 
@@ -246,11 +259,11 @@
         </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-            &nbsp;&nbsp;<em>web crawler</em>,<em>Hadoop</em>,<em>MapReduce</em>
+            &nbsp;&nbsp;<colorem>web crawler</colorem>,<colorem>Hadoop</colorem>,<colorem>MapReduce</colorem>
         </p>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<em>Hive</em>, <em>Pig</em>, <em>Mahout</em>,<em>Hbase</em> ,<em>Kafka</em>
+            &nbsp;&nbsp;<colorem>Spark</colorem>,<colorem>Hive</colorem>, <colorem>Pig</colorem>, <colorem>Mahout</colorem>,<colorem>Hbase</colorem> ,<colorem>Kafka</colorem>
         </p>
     </article>
     <article>
@@ -259,11 +272,15 @@
         </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-            &nbsp;&nbsp;<em>Oracle</em>
+            &nbsp;&nbsp;<colorem>Oracle</colorem>
         </p>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Elastic Search</em>,<em>Redis</em>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<colorem>ElasticSearch</colorem>,<colorem>Redis</colorem>
+        </p>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<colorem>Content Addressable Storage</colorem>
         </p>
     </article>
     <article>
@@ -272,11 +289,11 @@
         </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-            &nbsp;&nbsp;<em>Docker</em>
+            &nbsp;&nbsp;<colorem>Kubernetes</colorem>,<colorem>Docker</colorem>
         </p>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Jenkins</em>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<colorem>Jenkins</colorem>
         </p>
     </article>
     <article>
@@ -285,7 +302,7 @@
         </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-            &nbsp;&nbsp;<em>Kubernates</em>,<em>AWS</em>,<em>Microsoft Azure</em>,<em>Aliyun</em>,<em>Packet(Baremetal cloud service)</em>
+            &nbsp;&nbsp;<colorem>Kubernetes</colorem>,<colorem>Alicloud</colorem>,<colorem>AWS</colorem>,<colorem>Microsoft Azure</colorem>,<colorem>Aliyun</colorem>,<colorem>Packet(bare metal cloud service)</colorem>
         </p>
     </article>
         <article>
@@ -294,7 +311,7 @@
         </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-            &nbsp;&nbsp;<em>Excellent communication skills IELTS:  Over band: 6.5</em>
+            &nbsp;&nbsp;<colorem>Excellent communication skills IELTS:  Over band: 6.5</colorem>
         </p>
 
     </article>
