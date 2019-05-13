@@ -64,23 +64,12 @@
             <em>Researches: Personal Data Analysis and Implementation</em>
         </p>
     </article>
-    <article>
-        <header>
-            <h1>B.Sc. in Computer Science and Technology</h1>
-            <span>Beijing Normal University,Zhuhai</span>
-            <span><address>Zhuhai,China</address><time>2010 to 2014</time></span><br/>
-            <gpa>GPA: 89/100 Top-grade Professional Scholarship
-            </gpa>
-        </header>
-        <p>
-        <em>Dissertation: Research on Human Posture Recognition Algorithm and Application        
-        based on Microsoft KINECT</em>
-        </p>
-    </article>
+
 </section>
 
 
 <section class="thirteen columns">
+    <h1>Employment</h1>
     <article>
         <header>
             <h1>Oracle Asia R&D-Shenzhen
@@ -89,9 +78,11 @@
 </h1>
             <span><address>Shenzhen,China</address><time>Jun. 2018 to Present </time></span>
         </header>
-        <li>A block-chain based content addressable storage for patching purpose
+        <li>Refactored the Oracle Patching tool using <colorem>Block-chain</colorem> and <colorem>Content Addressable Storage</colorem> implemented version control feature. Oracle Patching tool supports provisioning, upgrading and patching process on Oracle Cloud.
         </li>
         <li>Optimized repository restore process and gain over <colorem>50%</colorem> speed-up
+        </li>
+        <li>Cooperate with USA team, Mexico team, and India team to support operation team upgrading and patching process. Solve issues and provide workaround solution during the supporting.
         </li>
     </article>
 <article>
@@ -101,9 +92,13 @@
             <h1>Research Assistant under supervised by Prof. ZHANG Tianyu</h1>
             <span><address>Shenzhen,China </address><time>Sept. 2017 to Jun. 2018 </time></span>
         </header>
-        <li>Distribute Information Collection and Analysis Platform for Financial Social Network. Data source:guba BBS, Xueqiu, Tencent News, stcn.com...
+        <li>Distribute Information Collection and Analysis Platform for Financial Social Network. Data source:guba BBS, Xueqiu, Tencent News, stcn.com.
         </li>
-        <li>Process <colorem>16 GB</colorem> streaming data daily and control delay within <colorem>10 mintues</colorem> on <colorem>3 nodes Kubernetes cluster</colorem> and <colorem>3 nodes Spark streaming cluster</colorem>
+        <li>Design and migrate the <colorem>monolithic application</colorem> to a <colorem>distributed cloud application</colorem> on <colorem>Aliyun</colorem>. Process <colorem>16 GB</colorem> streaming data daily and control delay within <colorem>10 minutes</colorem> on <colorem>3 nodes Kubernetes cluster</colorem> and <colorem>3 nodes Spark streaming cluster</colorem>
+        </li>
+        <li>Use word2vector implementing word embedding and construct sentiment prediction model. The prediction model has 0.93 precision for positive sentiment and 0.81 precision for negative sentiment.
+        </li>
+        <li>Use Named Entity Recognition to extract structured information from Personal CV and capital market research report. Construct knowledge graph for listed companies and their stakeholders.
         </li>
         <li>Research topic: How Social Sentiment Influence the Capital Market
         </li>
@@ -116,15 +111,13 @@
 </h1>
             <span><address>Shenzhen,China & Phoenix,USA</address><time>Dec. 2016 to Mar. 2017 </time></span>
         </header>
-        <li>Rancher Flat network project based on SDN (Open source) (Gain <colorem>99%</colorem> hardware bandwidth)
+        <li>(Phoenix,USA office) Rancher Flat network project based on SDN (Open source) (Remain <colorem>99%</colorem> hardware bandwidth)
         </li>
         <li>Container log collection and analysis workflow based on ElasticSearch, Fluentd, Kibana
         </li>
         <li>CI/CD workflow based on Jenkins and docker
         </li>
-        <li>Webank private cloud
-        </li>
-        <li>Hainan Airline group public cloud
+        <li><colorem>High level of customer satisfaction</colorem> HNA Airline public cloud, Webank private cloud
         </li>
 
     </article>
@@ -149,16 +142,20 @@
 
 <section class="thirteen columns">
     <h1>Professional Experience</h1>
+
     <article>
         <header>
             <h1>Distrubute Information Collection and Analysis Platform</h1>
             <span><address>Shenzhen Finance Institute,CUHK(SZ)</address><time>2017-Present</time></span>
         </header>
         <p>
-        Distribute Information Collection and Analysis Platform collects social network information and analyzes the public sentiment exceed <colorem>industrial quality</colorem>. I am responsible for designing and implementing whole data pipeline including web crawling, data bus design, data warehouse design and cluster provisioning.
+        Distribute Information Collection and Analysis Platform collects social network information and analyzes the public sentiment exceed <colorem>industrial quality</colorem>. I am responsible for designing and implementing whole data pipeline including web crawling, data bus design, data warehouse design and cluster provisioning on the Aliyun.
         </p>
         <li>
-            Frameworks: Scrapy Cluster, <colorem>Spark Streaming, Kafka, Redis, Zookeeper, Logstash, Elasticsearch,</colorem> mysql
+            Cloud Service:<colorem>ECS,Resource Orchestration,Container Registry,SLB,Elasticsearch Database,Kubernetes</colorem>
+            </li>
+        <li>
+            Frameworks: <colorem>Scrapy Cluster, Spark Streaming, Kafka, Redis, Zookeeper, Logstash, Elasticsearch,mysql</colorem> 
             </li>
         <li>
             The crawler can automatically login the website, retain the login session, parse the webpage content and crawl incrementally. 
@@ -167,12 +164,24 @@
             The system is designed in micro-service fashion and provisioned on the <colorem>Kubernetes cluster</colorem>. The system takes the advantages from Kubernetes and micro-service structure which the crawling node can be scaled up in seconds.
             </li>
         <li>
-            Data processing use the state-of-art big data processing frameworks, including Kafka, Elasticsearch, and Spark Streaming. Kafka cluster worked as a data bus store parsed webpage content. Spark streaming consumes the data from the Kafka pipeline and predicts the public sentiment from the social media post. Elasticsearch is mainly responsible for the full-text retrieval. The system processes <colorem>16 GB</colorem> streaming data daily and control delay within <colorem>10 mintues</colorem>.
+            Data processing use the state-of-art big data processing frameworks, including Kafka, Elasticsearch, and Spark Streaming. Kafka cluster worked as a data bus store parsed webpage content. Spark streaming consumes the data from the Kafka pipeline and predicts the public sentiment from the social media post. Elasticsearch is mainly responsible for the full-text retrieval. The system processes <colorem>16 GB</colorem> streaming data daily and control the data latency within <colorem>10 mintues</colorem>.
+            </li>
+            <li>
+            The system provided a <colorem>RESTful API</colorem> endpoint for managing crawler's task and retrive sentiment factor based on stock number. The backend system is using beego framework (Golang). 
             </li>
     </article>
     <article>
         <header>
-            <h1>Rancher Flat network project</h1>
+            <h1>A block-chain based content addressable storage for patching purpose</h1>
+            <span><address>Oracle Asia R&D-Shenzhen</address><time>2018-Present</time></span>
+        </header>
+        <p>
+            The patching tool supports block-chain and content addressable storage. Block-chain provides a retrievable file change chain. File change chain can guarantee non-repudiation, tampering the data, spoofing the data. Content Addressable Storage provides file fingerprint, which can be used for irrefutable authenticity and decrease duplication files. The new patching flow optimizes time-consuming, security and auditability in the patching process. 
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>Rancher Flat network project (Phoenix Research Center,USA)</h1>
             <span><address>
             Rancher Labs Inc.,Phoenix,USA</address><time>2017</time></span>
         </header>
@@ -186,7 +195,7 @@
     </article>
     <article>
         <header>
-            <h1>Research on Personal Data Analytics and Implement </h1>
+            <h1>Research on Personal Data Analytics and Implementation </h1>
             <span><professor>Under supervised by Prof. John C.S. Lui @ </professor><address>The Chinese Univercity of Hong Kong,Hong Kong</address><time>2015</time></span>
         </header>
         <p>
@@ -208,25 +217,13 @@
             The project aims to recommand the protaintial purchasing on Amazon online store. The recommandation based on Item-CF(Item-based collaborative filtering) algorithm.
         </p>
         <li>
+            Cloud Service:AWS EC2
+            </li>
+        <li>
             Developing tools and language:Java,Hadoop, Mahout
         </li>
         <a href="https://youtu.be/0eUwOAgpjKU" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i> Demo </a>
         <a href="https://drive.google.com/open?id=0ByuVTzEdiigKempCeDJseDZnMnM" target="_blank"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></i> Slides</a>
-    </article>
-    <article>
-        <header>
-            <h1>Research on Human Posture Recognition Algorithm and Application        
-        based on Microsoft KINECT </h1>
-            <span><address>Beijing Normal University,Zhuhai</address><time>2014</time></span>
-        </header>
-        <p>
-            Four posture recognition algorithms based on Microsoft Kinect sensor．Four algorithms were developed to define different postures including running, walking, turn left and right, hand up and virtual car wheel. Algorithms are based on Euclidean metric, angles and relative position. Two applications had been made in animation and security monitoring aspect relatively. The algorithms have been tested in applications which have high recognize rate and reliability. The algorithms are capable of consuming-level using.
-        </p>
-        <li>
-            Developing tools and language:C#,Unity 3D
-        </li>
-        <a href="https://youtu.be/_p5YkBj6Je4" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i> Demo </a><a href="https://drive.google.com/open?id=0ByuVTzEdiigKclM4Q0o5MmhQR0U" target="_blank"><i class="fa fa-file-word-o
-        " aria-hidden="true"></i> Unpublished Dissertation</a>
     </article>
 </section>
 
@@ -234,36 +231,54 @@
     <h1>Programming & Communication Skills</h1>
     <article>
         <header>
+            <h1>Cloud Platform</h1>
+        </header>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+            &nbsp;&nbsp;<colorem>AWS, Alicloud</colorem>
+        </p>
+    </article>
+    <article>
+        <header>
             <h1>Software engineering</h1>
         </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-            &nbsp;&nbsp;<colorem>Java</colorem>,<colorem>Python</colorem>
+            &nbsp;&nbsp;<colorem>Java, Python</colorem>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<colorem>Golang</colorem>, <colorem>Perl</colorem>,<colorem>shell</colorem> &amp; <colorem>Git</colorem>
-        </p>
-                <p>
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<colorem>Linux Network Namespace</colorem>
+            &nbsp;&nbsp;<colorem>Golang(Beego), Perl, shell</colorem> &amp; <colorem>Git</colorem>
         </p>
         <p>
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<colorem>HTML/CSS3</colorem> &amp; <colorem>Javascript</colorem>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<colorem>Restful API, Linux Network Namespace</colorem>
+        </p>
+
+    </article>
+    <article>
+        <header>
+            <h1>CICD</h1>
+        </header>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            &nbsp;&nbsp;<colorem>Kubernetes, Docker</colorem>
+        </p>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<colorem>Jenkins, Gradle</colorem>
         </p>
     </article>
-
     <article>
         <header>
             <h1>Big-Data Framework</h1>
         </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-            &nbsp;&nbsp;<colorem>web crawler</colorem>,<colorem>Hadoop</colorem>,<colorem>MapReduce</colorem>
+            &nbsp;&nbsp;<colorem>web crawler, Hadoop, MapReduce</colorem>
         </p>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<colorem>Spark</colorem>,<colorem>Hive</colorem>, <colorem>Pig</colorem>, <colorem>Mahout</colorem>,<colorem>Hbase</colorem> ,<colorem>Kafka</colorem>
+            &nbsp;&nbsp;<colorem>Spark, Hive, Pig, Mahout, Kafka</colorem>
         </p>
     </article>
     <article>
@@ -276,42 +291,26 @@
         </p>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<colorem>ElasticSearch</colorem>,<colorem>Redis</colorem>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<colorem>ElasticSearch, Redis</colorem>
         </p>
+    </article>
+    <article>
+        <header>
+            <h1>Storage</h1>
+        </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<colorem>Content Addressable Storage</colorem>
         </p>
     </article>
-    <article>
-        <header>
-            <h1>Testing & CICD</h1>
-        </header>
-        <p>
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-            &nbsp;&nbsp;<colorem>Kubernetes</colorem>,<colorem>Docker</colorem>
-        </p>
-        <p>
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<colorem>Jenkins</colorem>
-        </p>
-    </article>
-    <article>
-        <header>
-            <h1>Cloud Platform</h1>
-        </header>
-        <p>
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-            &nbsp;&nbsp;<colorem>Kubernetes</colorem>,<colorem>Alicloud</colorem>,<colorem>AWS</colorem>,<colorem>Microsoft Azure</colorem>,<colorem>Aliyun</colorem>,<colorem>Packet(bare metal cloud service)</colorem>
-        </p>
-    </article>
+
         <article>
         <header>
             <h1>English</h1>
         </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-            &nbsp;&nbsp;<colorem>Excellent communication skills IELTS:  Over band: 6.5</colorem>
+            &nbsp;&nbsp;<colorem>Excellent communication skills. IELTS:  Over band: 6.5</colorem>
         </p>
 
     </article>
@@ -319,27 +318,6 @@
 
 <section class="thirteen columns">
     <h1>Opensource Gadgets</h1>
-    <article>
-        <header>
-            <h1>Piczle 3D: A personalized 3D model puzzle</h1>
-            <span><address>BSA 168-Hour entrepreneur start-up campaign, Hong Kong</address><time>2015</time></span>
-        </header>
-        <p>
-        This project had been proposed when I join the BSA 168-Hour entrepreneur start-up campaign. The idea is making a reuseable 3D model which captured by mobile device camera. The 3d reconstructed model transfered to pixelized 3d puzzle. This project had won the best cloud computing awards and start-up seed fund.
-        </p>
-        <a href="https://drive.google.com/open?id=0ByuVTzEdiigKdHVMdXJnelNJSE0" target="_blank" > <i class="fa fa-file-powerpoint-o" aria-hidden="true"></i> Slides </a><a href="https://www.youtube.com/watch?v=MoDiT1LXKN4&t=4s" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></i> Demo</a>
-    </article>
-    <article>
-        <header>
-            <h1>Smart Ride: A bicycle navigation application</h1>
-            <span><address>National entrepreneur start-up campaign, China</address><time>2014</time></span>
-        </header>
-        <p>
-        This project had been proposed when I join the National entrepreneur start-up campaign. The idea is providing a safe and reliable navigation application. The shining point is that projecting laser parallel lines indicate the direction for the bicycle riders. A demo had been made for proof of the concept. This application had won the Bronze Award for the national campaign.
-
-        </p>
-        <a href="https://www.youtube.com/watch?v=MoDiT1LXKN4" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></i> Demo</a>
-    </article>
     <article>
         <header>
             <h1>SSH Client </h1>
@@ -350,32 +328,13 @@
         </p>
         <a href="https://github.com/qianlifu12345/remoteServer" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></i> Code Repository</a>
     </article>
-    <article>
-        <header>
-            <h1>Domian Validation Service</h1>
-            <span><address>Rancher</address><time>2017</time></span>
-        </header>
-        <p>
-            The domain validation service allows the user add customized domain for the load balancer. It provides ACME challange validation and DNS TXT record  validation. It can prevent the third- party attack and phishing attack for the load balancer.
-        </p>
-        <a href="https://github.com/rancher/rancher-domain-validation-service" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></i> Code Repository</a>
-    </article>
-   <article>
-        <header>
-            <h1>Authentication Filter</h1>
-            <span><address>Rancher</address><time>2017</time></span>
-        </header>
-        <p>
-            The authentication filter will validate the user's request by checking the Cookie.
-        </p>
-        <a href="https://github.com/qianlifu12345/rancher-auth-proxy" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></i> Code Repository</a>
-    </article>
+
 </section>
 
 <section class="thirteen columns">
     <h1>Hobbies</h1>
     <article>
-        <p>Swimming,Photography,Windsurfing,Travelling.</p>
+        <p>Swimming,Photography,Windsurfing,Dive.</p>
     </article>
 </section>
 

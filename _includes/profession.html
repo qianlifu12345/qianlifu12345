@@ -1,15 +1,19 @@
 <section class="thirteen columns">
     <h1>Professional Experience</h1>
+
     <article>
         <header>
             <h1>Distrubute Information Collection and Analysis Platform</h1>
             <span><address>Shenzhen Finance Institute,CUHK(SZ)</address><time>2017-Present</time></span>
         </header>
         <p>
-        Distribute Information Collection and Analysis Platform collects social network information and analyzes the public sentiment exceed <colorem>industrial quality</colorem>. I am responsible for designing and implementing whole data pipeline including web crawling, data bus design, data warehouse design and cluster provisioning.
+        Distribute Information Collection and Analysis Platform collects social network information and analyzes the public sentiment exceed <colorem>industrial quality</colorem>. I am responsible for designing and implementing whole data pipeline including web crawling, data bus design, data warehouse design and cluster provisioning on the Aliyun.
         </p>
         <li>
-            Frameworks: Scrapy Cluster, <colorem>Spark Streaming, Kafka, Redis, Zookeeper, Logstash, Elasticsearch,</colorem> mysql
+            Cloud Service:<colorem>ECS,Resource Orchestration,Container Registry,SLB,Elasticsearch Database,Kubernetes</colorem>
+            </li>
+        <li>
+            Frameworks: <colorem>Scrapy Cluster, Spark Streaming, Kafka, Redis, Zookeeper, Logstash, Elasticsearch,mysql</colorem> 
             </li>
         <li>
             The crawler can automatically login the website, retain the login session, parse the webpage content and crawl incrementally. 
@@ -18,12 +22,24 @@
             The system is designed in micro-service fashion and provisioned on the <colorem>Kubernetes cluster</colorem>. The system takes the advantages from Kubernetes and micro-service structure which the crawling node can be scaled up in seconds.
             </li>
         <li>
-            Data processing use the state-of-art big data processing frameworks, including Kafka, Elasticsearch, and Spark Streaming. Kafka cluster worked as a data bus store parsed webpage content. Spark streaming consumes the data from the Kafka pipeline and predicts the public sentiment from the social media post. Elasticsearch is mainly responsible for the full-text retrieval. The system processes <colorem>16 GB</colorem> streaming data daily and control delay within <colorem>10 mintues</colorem>.
+            Data processing use the state-of-art big data processing frameworks, including Kafka, Elasticsearch, and Spark Streaming. Kafka cluster worked as a data bus store parsed webpage content. Spark streaming consumes the data from the Kafka pipeline and predicts the public sentiment from the social media post. Elasticsearch is mainly responsible for the full-text retrieval. The system processes <colorem>16 GB</colorem> streaming data daily and control the data latency within <colorem>10 mintues</colorem>.
+            </li>
+            <li>
+            The system provided a <colorem>RESTful API</colorem> endpoint for managing crawler's task and retrive sentiment factor based on stock number. The backend system is using beego framework (Golang). 
             </li>
     </article>
     <article>
         <header>
-            <h1>Rancher Flat network project</h1>
+            <h1>A block-chain based content addressable storage for patching purpose</h1>
+            <span><address>Oracle Asia R&D-Shenzhen</address><time>2018-Present</time></span>
+        </header>
+        <p>
+            The patching tool supports block-chain and content addressable storage. Block-chain provides a retrievable file change chain. File change chain can guarantee non-repudiation, tampering the data, spoofing the data. Content Addressable Storage provides file fingerprint, which can be used for irrefutable authenticity and decrease duplication files. The new patching flow optimizes time-consuming, security and auditability in the patching process. 
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>Rancher Flat network project (Phoenix Research Center,USA)</h1>
             <span><address>
             Rancher Labs Inc.,Phoenix,USA</address><time>2017</time></span>
         </header>
@@ -37,7 +53,7 @@
     </article>
     <article>
         <header>
-            <h1>Research on Personal Data Analytics and Implement </h1>
+            <h1>Research on Personal Data Analytics and Implementation </h1>
             <span><professor>Under supervised by Prof. John C.S. Lui @ </professor><address>The Chinese Univercity of Hong Kong,Hong Kong</address><time>2015</time></span>
         </header>
         <p>
@@ -59,24 +75,12 @@
             The project aims to recommand the protaintial purchasing on Amazon online store. The recommandation based on Item-CF(Item-based collaborative filtering) algorithm.
         </p>
         <li>
+            Cloud Service:AWS EC2
+            </li>
+        <li>
             Developing tools and language:Java,Hadoop, Mahout
         </li>
         <a href="https://youtu.be/0eUwOAgpjKU" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i> Demo </a>
         <a href="https://drive.google.com/open?id=0ByuVTzEdiigKempCeDJseDZnMnM" target="_blank"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></i> Slides</a>
-    </article>
-    <article>
-        <header>
-            <h1>Research on Human Posture Recognition Algorithm and Application        
-        based on Microsoft KINECT </h1>
-            <span><address>Beijing Normal University,Zhuhai</address><time>2014</time></span>
-        </header>
-        <p>
-            Four posture recognition algorithms based on Microsoft Kinect sensor．Four algorithms were developed to define different postures including running, walking, turn left and right, hand up and virtual car wheel. Algorithms are based on Euclidean metric, angles and relative position. Two applications had been made in animation and security monitoring aspect relatively. The algorithms have been tested in applications which have high recognize rate and reliability. The algorithms are capable of consuming-level using.
-        </p>
-        <li>
-            Developing tools and language:C#,Unity 3D
-        </li>
-        <a href="https://youtu.be/_p5YkBj6Je4" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i> Demo </a><a href="https://drive.google.com/open?id=0ByuVTzEdiigKclM4Q0o5MmhQR0U" target="_blank"><i class="fa fa-file-word-o
-        " aria-hidden="true"></i> Unpublished Dissertation</a>
     </article>
 </section>
